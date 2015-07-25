@@ -1,6 +1,6 @@
 # processing-js-example
 
-A simple page that shows a Processing sketch running in a web page
+Shows a Processing sketch running in a web page
 
 The steps I took to create it:
 
