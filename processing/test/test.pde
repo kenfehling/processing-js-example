@@ -7,7 +7,7 @@ void setup() {  //setup function called initially, only once
     counter = 0;
 }
 
-void draw() {  //draw function loops
+void draw() {  //draw function loop
     counter += 1;
     noStroke();
     fill(random(255), 100, 255, 50);
@@ -18,12 +18,4 @@ void draw() {  //draw function loops
     else {
         ellipse(width / 2, height / 2, 80 * sin(counter), 80 * sin(counter));
     }
-}
-
-void drawText(String t) {
-  background(0, 0, 0, 0);
-  fill(0, 0, 0);
-  textSize(24);
-  float twidth = textWidth(t);
-  text(t, (width - twidth) / 2, height / 2 + twidth / 2);
 }
